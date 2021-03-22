@@ -1,0 +1,27 @@
+---
+title: VoynichSC
+layout: layouts/base.njk
+
+---
+
+<main>
+    {{ content | safe }}
+
+    <h1>{{ title }}</h1>
+
+    <figure>
+      <video controls>
+        <source src="{{ video }}" type="video/mp4">
+      </video>
+      <figcaption>Video zu {{ title }}</figcaption>
+    </figure>
+
+    <section>
+      <h3>Quellen und Verweise</h3>
+      <ul>
+        {%- for source in sources -%}
+          <li>{% markdown %}{{ source.text }}{% endmarkdown %}</li>
+        {%- endfor -%}
+      </ul>
+    </section>
+</main>

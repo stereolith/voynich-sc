@@ -1,0 +1,15 @@
+{
+  "name": "voynich-sc",
+  "version": "1.0.0",
+  "description": "This project is hosted at https://voynichsc.uni-koeln.de/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
