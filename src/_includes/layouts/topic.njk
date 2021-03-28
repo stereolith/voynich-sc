@@ -1,27 +1,50 @@
 ---
 title: VoynichSC
 layout: layouts/base.njk
-
 ---
 
-<main>
-    {{ content | safe }}
+<header class="header">
+  <a class="header__link" href="/">VoynichSC</a>
+  <div class="header__sub-title">Voynich Studies Cologne</div>
+</header>
 
-    <h1>{{ title }}</h1>
+<a class="back-link" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg> 
+<span>zurück</span></a>
 
-    <figure>
+<section class="topic-header">
+  <h1>{{ title }}</h1>
+</section>
+
+<main class="main-content">
+
+    <figure class="video-wrapper">
       <video controls>
         <source src="{{ video }}" type="video/mp4">
       </video>
-      <figcaption>Video zu {{ title }}</figcaption>
+      {# <figcaption class="video-caption">Video zu {{ title }}</figcaption> #}
     </figure>
 
-    <section>
-      <h3>Quellen und Verweise</h3>
+    <section class="content-section">
+      <aside class="links">
+        <h2>Links</h2>
+            {%- for link in links -%}
+              <a class="link" target="_blank" href="{{link.href}}"><span>{{ link.text }}</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            {%- endfor -%}
+      </aside>
+
+      <h2>{{ title }}</h2>
+
+      {{ content | safe }}
+    
+      {# <h3>Quellen und Verweise</h3>
       <ul>
         {%- for source in sources -%}
           <li>{% markdown %}{{ source.text }}{% endmarkdown %}</li>
         {%- endfor -%}
-      </ul>
+      </ul> #}
+
+
     </section>
 </main>

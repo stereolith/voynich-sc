@@ -7,3 +7,14 @@ This is the repository for the web portal of Voynich Studies Cologne (VoynichSC)
 ## Technology
 
 The VoynichSC portal is a static website that is generated with the [11ty satatic site generator](https://www.11ty.dev/).
+
+# Development
+
+Requirements: **node** and **npm**
+
+- **install dependencies**: run `npm install`
+- **Build files:** run `npx @11ty/eleventy`.
+- For development, running `npx @11ty/eleventy --serve` also starts a local development server with hot reloading that can be reached at http://localhost:8080
+
+# Deployment
+Copy the built static files from `dist` into the webroot of the server.
