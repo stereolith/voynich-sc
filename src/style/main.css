@@ -1,0 +1,21 @@
+
+/* Variables */
+:root {
+    --base-color: #EFE6DD;
+    --purple-light: #9A7197;
+    --purple-dark: #382633;
+    --blue: #2F6690;
+}
+
+/* Font */
+
+@font-face {
+    font-family: RobotoSlab;
+    src: url(/fonts/RobotoSlab-Regular-webfont.woff);
+}
+  
+
+body {
+    background-color: var(--base-color);
+    font-family: 'RobotoSlab', Arial, sans-serif;
+}
