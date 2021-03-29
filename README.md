@@ -8,7 +8,17 @@ This is the repository for the web portal of Voynich Studies Cologne (VoynichSC)
 
 The VoynichSC portal is a static website that is generated with the [11ty satatic site generator](https://www.11ty.dev/).
 
+
 # Development
+
+### Content
+
+Content is represented in markdown format:
+
+- topic pages in `src/pages`
+- home page: `src/index.md`
+
+### Build static files
 
 Requirements: **node** and **npm**
 
