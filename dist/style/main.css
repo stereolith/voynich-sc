@@ -17,13 +17,17 @@
     font-family: RobotoSlab;
     src: url('/fonts/RobotoSlab-Regular-webfont.woff') format('woff');
 }
+@font-face {
+    font-family: RobotoSlabLight;
+    src: url('/fonts/RobotoSlab-Light-webfont.woff') format('woff');
+}
   
 
 /* general styles */
 
 body {
     background-color: var(--base-color);
-    font-family: 'RobotoSlab', sans-serif;
+    font-family: 'RobotoSlabLight', sans-serif;
 
     display: grid;
     grid-template-columns: 1fr minmax(0, var(--content-max-width)) 1fr;
@@ -36,6 +40,7 @@ body {
 }
 
 h1, h2, h3 {
+    font-family: 'RobotoSlab', sans-serif;
     color: var(--purple-light);
     font-weight: normal;
 }
@@ -60,10 +65,42 @@ p {
 }
 
 
-
-
 /* Home page */
+.home-description {
+    padding-top: 10px;
+    padding-bottom: 15px;
 
+    max-width: 500px;
+}
+
+.tile-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 25px;
+    gap: 12px;
+}
+.tile-link {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.tile-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tile-title {
+    flex-grow: 0;
+    width: 100%;
+    background-color: var(--blue);
+    color: #FFF;
+    font-family: 'RobotoSlab', sans-serif;
+    box-sizing: border-box;
+    padding: 22px;
+}
 
 /* topic pages */
 
@@ -76,9 +113,11 @@ p {
     font-size: 2.25rem;
 }
 .header__sub-title {
+    font-family: 'RobotoSlab', sans-serif;
     color: #000;
     font-size: 1.125rem;
     margin-top: -5px;
+    
 }
 
 .topic-header {

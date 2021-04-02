@@ -3,4 +3,28 @@ title: VoynichSC
 layout: layouts/base.njk
 ---
 
-{{ content | safe }}
+<header class="header">
+  <a class="header__link" href="/">VoynichSC</a>
+  <div class="header__sub-title">Voynich Studies Cologne</div>
+</header>
+
+<main class="main-content">
+    <section class="content-section home-description">
+        {{ content | safe }}
+    </section>
+
+    <section class="content-section tile-links">
+
+        {%- for topic in collections.topic -%}
+            <a href="{{ topic.url }}" class="tile-link">
+                <img src="{{ topic.data.tileimage }}" />
+                <div class="tile-title">{{ topic.data.title }}</div>
+            </a>
+        {%- endfor -%}
+
+    </section>
+
+    <section class="content-section image-sources">
+        Die hier verwendeten Bilder stammen aus den <a href="https://collections.library.yale.edu/catalog/2002046" target="_blank">Scans der Beinecke Rare Book and Manuscript Library der Yale University</a>.
+    </section>
+</main>
