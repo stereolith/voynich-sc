@@ -23,6 +23,43 @@ layout: layouts/base.njk
       </video>
       {# <figcaption class="video-caption">Video zu {{ title }}</figcaption> #}
     </figure>
+    <div
+      class="content-section chapter-timeline"
+      data-markers='{
+        "0": "Einleitung & Überblick",
+        "980": "Geschichte",
+        "1180": "Geschichte",
+        "2000": "Analyse",
+        "2500": "Analyse",
+        "2721": "Zusammenfassung"
+      }'
+    >
+      <div class="timeline-inner">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <mask id="mask">
+              <rect width="100%" height="100%" x="-100%" y="0" fill="#fff"/>
+            </mask>
+          </defs>
+
+          <rect class="timeline-background" width="100%" height="5px" y="20" rx="2.5" />
+
+          <g class="mask-g" mask="url(#mask)">
+            <rect class="timeline-background-fill" width="100%" height="5px" y="20" rx="2.5" />
+          </g>	
+        </svg>
+        <div class="time-links">
+          <div></div>
+        </div>
+      </div>
+
+      <template id="time-link">
+        <div class="time-link">
+          <div class="timecode"></div>
+          <div class="title"></div>
+        </div>
+      </template>
+    </div>
 
     <section class="content-section">
       <aside class="links">

@@ -15,11 +15,11 @@
 
 @font-face {
     font-family: RobotoSlab;
-    src: url('/fonts/RobotoSlab-Regular-webfont.woff') format('woff');
+    src: url(/fonts/RobotoSlab-Regular-webfont.woff) format('woff');
 }
 @font-face {
     font-family: RobotoSlabLight;
-    src: url('/fonts/RobotoSlab-Light-webfont.woff') format('woff');
+    src: url(/fonts/RobotoSlab-Light-webfont.woff) format('woff');
 }
   
 
@@ -64,6 +64,10 @@ p {
     display: contents;
 }
 
+.content-section {
+    grid-column: 2;
+}
+
 
 /* Home page */
 .home-description {
@@ -89,8 +93,9 @@ p {
 }
 .tile-link img {
     width: 100%;
-    height: 100%;
+    height: 100px;
     object-fit: cover;
+    flex-grow: 1;
 }
 .tile-title {
     flex-grow: 0;
@@ -161,10 +166,6 @@ p {
     grid-column: 2;
 }
 
-.content-section {
-    grid-column: 2;
-}
-
 .links {
     float: right;
     margin-bottom: 30px;
@@ -208,5 +209,52 @@ p {
     .links .link {
         text-align: left;
         justify-content: flex-start;
+    }
+}
+
+/* chapter timeline */
+.chapter-timeline {
+    --timeline-line-height: 5px;
+    --timeline-dot-size: 15px; 
+    --timeline-top-padding: 15px;
+}
+
+.timeline-inner {
+    /*height: var(--timeline-line-height);*/
+}
+.timeline-inner > svg {
+    height: 30px;
+    width: 100%;
+}
+.timeline-inner .timeline-background, .timeline-inner .circle {
+    fill: var(--purple-light);
+}
+.timeline-inner .timeline-background-fill, .timeline-inner .circle-fill {
+    fill: var(--purple-dark);
+}
+.time-links {
+    display: grid;
+}
+.time-link {
+    /* max-width: 100px; */
+    word-wrap: break-word;
+    padding-right: 3px;
+}
+.time-link .timecode {
+    color: var(--blue);
+}
+.time-link .title {
+    color: var(--purple-dark);
+    font-size: 15px;
+    font-family: 'RobotoSlab', sans-serif;
+}
+.time-links[data-last-overflow] .time-link:last-child {
+    text-align: right;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .timeline-inner {
+        flex-direction: column;
     }
 }

@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/media/");
   eleventyConfig.addPassthroughCopy("src/fonts/");
   eleventyConfig.addPassthroughCopy("src/style/");
+  eleventyConfig.addPassthroughCopy("src/script/");
 
   return {
     dir: {
