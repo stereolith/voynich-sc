@@ -138,11 +138,13 @@ p {
     display: flex;
     align-items: center;
     margin-right: 10px;
+    color: var(--purple-light);
 }
 .back-link svg {
     width: 18px;
     height: 18px;
     margin-right: 4px;
+    color: var(--purple-light);
 }
 @media only screen and (max-width: 900px) {
     .back-link {
@@ -160,7 +162,7 @@ p {
 }
 .video-wrapper video {
     grid-column: 2;
-    max-width: 100%;
+    width: 100%;
 }
 .video-caption {
     grid-column: 2;
