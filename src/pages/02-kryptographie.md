@@ -4,7 +4,7 @@ title: Kryptologie
 date: 2021-04-01
 tags: topic
 
-video: /media/vsc_kryptologie.mp4
+video: /media/videos/vsc_kryptologie.mp4
 tileimage: /media/images/1006192.jpg
 chapters:
   - title: "Geschichte der Kryptologie"
