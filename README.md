@@ -15,7 +15,7 @@ The VoynichSC portal is a static website that is generated with the [11ty satati
 
 Content is represented in markdown format:
 
-- topic pages in `src/pages`
+- topic pages in `src/pages/`
 - home page: `src/index.md`
 
 ### Build static files

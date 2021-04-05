@@ -4,8 +4,15 @@ title: Die Geschichte
 date: 2021-04-01
 tags: topic
 
-video: /media/vsc_kryptologie.mp4
-tileimage: /media/images/1006075.jpg
+video: /media/videos/vsc_geschichte.mp4
+tileimage: /media/images/1006230.jpg
+chapters:
+  - title: "Das 20. Jahrhundert"
+    time: 0
+  - title: "Vom 17. ins 19. Jahrhundert"
+    time: 1055
+  - title: "Zurück ins 15 Jahrhundert"
+    time: 1905
 links:
   - text: Timeline
     href: https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1RAJlin4bLx6PKQPt76M0RhE8B3Zwzyuk1zboP9Alic0&font=Default&lang=de&start_at_end=true&initial_zoom=2&height=650

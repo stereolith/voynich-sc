@@ -69,7 +69,7 @@ function buildTimeline(markers, duration) {
         positionWidths.push(labelPositions[i] - labelPositions[i-1])
     }
     if (timelineSize - labelPositions[labelPositions.length - 1] < 120) {
-        positionWidths[positionWidths.length - 1] = (timelineSize - labelPositions[labelPositions.length - 1])
+        positionWidths[positionWidths.length - 1] = 150
         timeLinks.setAttribute('data-last-overflow', 'true')
     }
     timeLinks.setAttribute('style', `grid-template-columns: ${positionWidths.map(p => p + 'px').join(" ")} repeat(auto-fit, minmax(50px, 1fr))`)

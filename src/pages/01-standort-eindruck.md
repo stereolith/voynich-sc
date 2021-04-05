@@ -4,17 +4,17 @@ title: Standort und Eindruck
 date: 2021-04-01
 tags: topic
 
-video: /media/vsc_kryptologie.mp4
+video: /media/videos/vsc_manuskript.mp4
 tileimage: /media/images/1006075.jpg
 chapters:
-  - title: "Einleitung & Überblick"
+  - title: "Einleitung"
     time: 0
-  - title: "Geschichte"
-    time: 980
-  - title: "Analyse"
-    time: 2000
-  - title: "Zusammenfassung"
-    time: 2721
+  - title: "Anflug"
+    time: 140
+  - title: "Optik, Akustik und Haptik"
+    time: 420
+  - title: "Animation des Foldouts"
+    time: 1630
 links:
   - text: Webseite zur Veranstaltung am IDH
     href: https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem20/verarbeitung-enigmatischer-schriftstucke-1/
