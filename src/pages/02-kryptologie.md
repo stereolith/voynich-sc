@@ -25,4 +25,3 @@ links:
 ---
 
 Diese Episode thematisiert die Krypotologie, Wissenschaft von der Informationssicherheit, um Ansatzpunkte dafür zu finden, wie man den Text des Voynich-Manuskripts analysieren könnte, um seinem Geheimnis auf die Spur zu kommen.
-
