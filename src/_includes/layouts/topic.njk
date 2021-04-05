@@ -23,19 +23,21 @@ layout: layouts/base.njk
       </video>
       {# <figcaption class="video-caption">Video zu {{ title }}</figcaption> #}
     </figure>
+
+    <script>
+      const markers = [
+        {%- for chapter in chapters -%}
+          {
+            "time": {{ chapter.time }},
+            "title": "{{chapter.title | safe }}"
+          },
+        {%- endfor -%}];
+    </script>
     <div
       class="content-section chapter-timeline"
-      data-markers='{
-        "0": "Einleitung & Überblick",
-        "980": "Geschichte",
-        "1180": "Geschichte",
-        "2000": "Analyse",
-        "2500": "Analyse",
-        "2721": "Zusammenfassung"
-      }'
     >
       <div class="timeline-inner">
-        <svg xmlns="http://www.w3.org/2000/svg">
+        <svg xmlns="http://www.w3.org/2000/svg" class="timeline-svg-desktop">
           <defs>
             <mask id="mask">
               <rect width="100%" height="100%" x="-100%" y="0" fill="#fff"/>

@@ -3,34 +3,40 @@ let video
 
 function init() {
     const chapterWrapper = document.querySelector('.chapter-timeline')
-    if (chapterWrapper) {
-        const markers = JSON.parse(chapterWrapper.getAttribute('data-markers'))
-        const markersArr = Object.entries(markers).map(k => ({
-            time: parseInt(k[0]),
-            label: k[1]
-        }))
-
+    if (chapterWrapper && markers.length) {
         video = document.querySelector('.video-wrapper video')
-        buildTimeline(markersArr, video.duration)
+        buildTimeline(markers, video.duration)
+        setupTimeLinkClickHandlers(video)
 
         // updateTimeline(3000, video.duration)
         setInterval(() => {
             updateTimeline(video.currentTime, video.duration)
+            updateActiveTimeLink(video.currentTime)
         }, 1000);
-    }
 
-    
+        window.addEventListener("resize", () => {
+            buildTimeline(markersArr, video.duration)
+            setupTimeLinkClickHandlers(video)
+        })
+    } else {
+        document.querySelector('.chapter-timeline').remove()
+    }
 }
 
 function buildTimeline(markers, duration) {
-    let svgRoot = document.querySelector('.timeline-inner > svg')
-    let svgMaskG = document.querySelector('.timeline-inner > svg .mask-g')
+    const mobile = window.innerWidth < 600
+    let svgRoot = document.querySelector('.timeline-inner .timeline-svg-desktop')
+    let svgMaskG = document.querySelector('.timeline-inner .timeline-svg-desktop .mask-g')
     let timeLinks = document.querySelector('.time-links')
 
     const timelineSize = svgRoot.getBoundingClientRect().width
-    
+
+    // reset DOM manipulation
+    document.querySelectorAll(".circle, .circle-fill").forEach(e => e.parentNode.removeChild(e));
+    document.querySelectorAll(".time-links .time-link").forEach(e => e.parentNode.removeChild(e));
+
     const labelPositions = []
-    for (const {time, label} of markers) {
+    for (const {time, title} of markers) {
         let circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle')
         circle.setAttribute('class', 'circle')
         circle.setAttribute('width', '10px')
@@ -48,9 +54,10 @@ function buildTimeline(markers, duration) {
 
         let linkTemplate = document.querySelector('#time-link')
         let timecode = linkTemplate.content.querySelector('.timecode')
-        let title = linkTemplate.content.querySelector('.title')
+        let titleEl = linkTemplate.content.querySelector('.title')
         timecode.textContent = timecodeString(time)
-        title.textContent = label
+        titleEl.textContent = title
+        linkTemplate.content.querySelector('.time-link').setAttribute('data-time', time)
         const position = (time/duration * timelineSize)
         labelPositions.push(position)
         let clone = document.importNode(linkTemplate.content, true)
@@ -62,10 +69,9 @@ function buildTimeline(markers, duration) {
         positionWidths.push(labelPositions[i] - labelPositions[i-1])
     }
     if (timelineSize - labelPositions[labelPositions.length - 1] < 120) {
-        positionWidths[positionWidths.length - 1] = (timelineSize - labelPositions[labelPositions.length - 1]) / 2
+        positionWidths[positionWidths.length - 1] = (timelineSize - labelPositions[labelPositions.length - 1])
         timeLinks.setAttribute('data-last-overflow', 'true')
     }
-    console.log(positionWidths)
     timeLinks.setAttribute('style', `grid-template-columns: ${positionWidths.map(p => p + 'px').join(" ")} repeat(auto-fit, minmax(50px, 1fr))`)
 
 }
@@ -79,6 +85,30 @@ function timecodeString(seconds) {
     const minutes = Math.round(seconds / 60)
     const s = Math.round(seconds % 60)
     return `${minutes.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`
+}
+
+function updateActiveTimeLink(position) {
+    let timeLinks = document.querySelectorAll('.time-link')
+    let activeIndex = 0
+    timeLinks.forEach((link, index) => {
+        if (position >= link.getAttribute('data-time')) activeIndex = index
+    })
+
+    const activeLinkEl = document.querySelector('.time-link.active')
+    if (activeLinkEl) activeLinkEl.setAttribute('class', 'time-link')
+    timeLinks[activeIndex].setAttribute('class', 'time-link active')
+}
+
+function setupTimeLinkClickHandlers(video) {
+    let timeLinks = document.querySelectorAll('.time-link')
+    timeLinks.forEach(e => {
+        e.addEventListener("click", () => {
+            video.currentTime = e.getAttribute('data-time')
+            video.play()
+            updateTimeline(video.currentTime, video.duration)
+            updateActiveTimeLink(video.currentTime)
+        })
+    })
 }
 
 window.addEventListener('load', init)

@@ -222,9 +222,12 @@ p {
 .timeline-inner {
     /*height: var(--timeline-line-height);*/
 }
-.timeline-inner > svg {
+.timeline-inner > .timeline-svg-desktop {
     height: 30px;
     width: 100%;
+}
+.timeline-inner .timeline-mobile {
+    display: none;
 }
 .timeline-inner .timeline-background, .timeline-inner .circle {
     fill: var(--purple-light);
@@ -239,6 +242,10 @@ p {
     /* max-width: 100px; */
     word-wrap: break-word;
     padding-right: 3px;
+    cursor: pointer;
+}
+.time-link:hover .title {
+    text-decoration: underline;
 }
 .time-link .timecode {
     color: var(--blue);
@@ -246,7 +253,11 @@ p {
 .time-link .title {
     color: var(--purple-dark);
     font-size: 15px;
+}
+.time-link.active {
+    color: var(--purple-dark);
     font-family: 'RobotoSlab', sans-serif;
+    font-weight: bold;
 }
 .time-links[data-last-overflow] .time-link:last-child {
     text-align: right;
@@ -254,7 +265,42 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    .timeline-inner {
+    .timeline-inner > .timeline-svg-desktop {
+        display: none;
+    }
+    .time-links {
+        display: flex;
         flex-direction: column;
+        margin-top: 20px;
+        padding-left: 30px;
+        position: relative;
+    }
+    .time-links::before {
+        position: absolute;
+        content: "";
+        margin-left: -20px;
+        width: var(--timeline-line-height);
+        border-radius: calc(var(--timeline-line-height) / 2);
+        height: 100%;
+        background-color: var(--purple-light);
+    }
+    .time-links .time-link {
+        position: relative;
+        text-align: left !important;
+        float: none im !important;
+        margin: 4px 0 ;
+    }
+    .time-links .time-link::before {
+        content: "";
+        position: absolute;
+        top: calc(50% - var(--timeline-dot-size) / 2);
+        margin-left: calc(-20px - var(--timeline-dot-size) / 2 + var(--timeline-line-height) / 2);
+        width: var(--timeline-dot-size);
+        height: var(--timeline-dot-size);
+        border-radius: 50%;
+        background-color: var(--purple-light);
+    }
+    .time-links .time-link.active::before {
+        background-color: var(--purple-dark);
     }
 }

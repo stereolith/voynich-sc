@@ -6,6 +6,15 @@ tags: topic
 
 video: /media/vsc_kryptologie.mp4
 tileimage: /media/images/1006075.jpg
+chapters:
+  - title: "Einleitung & Überblick"
+    time: 0
+  - title: "Geschichte"
+    time: 980
+  - title: "Analyse"
+    time: 2000
+  - title: "Zusammenfassung"
+    time: 2721
 links:
   - text: Webseite zur Veranstaltung am IDH
     href: https://lehre.idh.uni-koeln.de/lehrveranstaltungen/wisem20/verarbeitung-enigmatischer-schriftstucke-1/
