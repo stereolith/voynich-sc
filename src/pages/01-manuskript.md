@@ -7,7 +7,7 @@ tags: topic
 video: /media/videos/vsc_01_manuskript.mp4
 tileimage: /media/images/1006075.jpg
 chapters:
-  - title: "Einleitung"
+  - title: "Ein­lei­tung"
     time: 0
   - title: "Anflug"
     time: 140
