@@ -29,7 +29,7 @@ layout: layouts/base.njk
         {%- for chapter in chapters -%}
           {
             "time": {{ chapter.time }},
-            "title": "{{chapter.title | safe }}"
+            "title": "{{ chapter.title | safe }}"
           },
         {%- endfor -%}];
     </script>
@@ -64,6 +64,7 @@ layout: layouts/base.njk
     </div>
 
     <section class="content-section">
+      {% if links %}
       <aside class="links">
         <h2>Links</h2>
             {%- for link in links -%}
@@ -72,6 +73,7 @@ layout: layouts/base.njk
               </a>
             {%- endfor -%}
       </aside>
+      {% endif %}
 
       <h2>{{ title }}</h2>
 

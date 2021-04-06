@@ -104,7 +104,12 @@ p {
     color: #FFF;
     font-family: 'RobotoSlab', sans-serif;
     box-sizing: border-box;
-    padding: 22px;
+    padding: 18px 20px;
+    line-height: 1.2;
+}
+.tile-title .tile-title-topic {
+    font-family: 'RobotoSlabLight', sans-serif;
+    padding-bottom: 5px;
 }
 
 /* topic pages */
@@ -225,8 +230,9 @@ p {
     /*height: var(--timeline-line-height);*/
 }
 .timeline-inner > .timeline-svg-desktop {
-    height: 30px;
+    height: 36px;
     width: 100%;
+    overflow: visible;
 }
 .timeline-inner .timeline-mobile {
     display: none;
@@ -236,6 +242,9 @@ p {
 }
 .timeline-inner .timeline-background-fill, .timeline-inner .circle-fill {
     fill: var(--purple-dark);
+}
+.circle {
+    filter: drop-shadow(0px 1px 2px #666);
 }
 .time-links {
     display: grid;
@@ -301,6 +310,7 @@ p {
         height: var(--timeline-dot-size);
         border-radius: 50%;
         background-color: var(--purple-light);
+        filter: drop-shadow(0px 1px 2px #666);
     }
     .time-links .time-link.active::before {
         background-color: var(--purple-dark);

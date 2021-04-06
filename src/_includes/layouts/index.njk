@@ -18,7 +18,10 @@ layout: layouts/base.njk
         {%- for topic in collections.topic -%}
             <a href="{{ topic.url }}" class="tile-link">
                 <img src="{{ topic.data.tileimage }}" />
-                <div class="tile-title">{{ topic.data.title }}</div>
+                <div class="tile-title">
+                    <div class="tile-title-topic">{{ topic.data.topic }}</div>
+                    <div>{{ topic.data.title }}</div>
+                </div>
             </a>
         {%- endfor -%}
 

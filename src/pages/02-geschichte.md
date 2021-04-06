@@ -4,14 +4,14 @@ title: Die Geschichte
 date: 2021-04-01
 tags: topic
 
-video: /media/videos/vsc_geschichte.mp4
+video: /media/videos/vsc_02_geschichte.mp4
 tileimage: /media/images/1006230.jpg
 chapters:
-  - title: "Das 20. Jahrhundert"
+  - title: "Das 20. Jahr­hundert"
     time: 0
-  - title: "Vom 17. ins 19. Jahrhundert"
+  - title: "Vom 17. ins 19. Jahr­hundert"
     time: 1055
-  - title: "Zurück ins 15 Jahrhundert"
+  - title: "Zurück ins 15 Jahr­hundert"
     time: 1905
 links:
   - text: Timeline

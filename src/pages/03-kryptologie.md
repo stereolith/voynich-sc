@@ -4,12 +4,12 @@ title: Kryptologie
 date: 2021-04-01
 tags: topic
 
-video: /media/videos/vsc_kryptologie.mp4
+video: /media/videos/vsc_03_kryptologie.mp4
 tileimage: /media/images/1006192.jpg
 chapters:
-  - title: "Geschichte der Kryptologie"
+  - title: "Geschichte der Krypto­logie"
     time: 60
-  - title: "Verfahren der Kryptologie"
+  - title: "Verfahren der Krypto­logie"
     time: 1620
   - title: "Beispiel für Maskierten Code, Abschluss"
     time: 2952

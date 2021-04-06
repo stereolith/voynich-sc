@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" href="/fonts/RobotoSlab-Regular-webfont.woff" as="font" type="font/woff" crossorigin="anonymous" >
+    <link rel="preload" href="/fonts/RobotoSlab-Light-webfont.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/main.css?v=3" />
+    <title>Morphologie</title>
+  </head>
+  <body>
+    
+<header class="header">
+  <a class="header__link" href="/">VoynichSC</a>
+  <div class="header__sub-title">Voynich Studies Cologne</div>
+</header>
+
+<a class="back-link" href="/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg> 
+<span>zurück</span></a>
+
+<section class="topic-header">
+  <h1>Morphologie</h1>
+</section>
+
+<main class="main-content">
+
+    <figure class="video-wrapper">
+      <video preload="metadata" controls>
+        <source src="/media/videos/vsc_08_morphologie.mp4" type="video/mp4">
+      </video>
+      
+    </figure>
+
+    <script>
+      const markers = [{
+            "time": 0,
+            "title": "Thesen zur Entstehung"
+          },{
+            "time": 547,
+            "title": "Statistische Analyse"
+          },{
+            "time": 1600,
+            "title": "Seltsame Eigenschaften der Wörter"
+          },{
+            "time": 2284,
+            "title": "Diskussion & Fazit"
+          },];
+    </script>
+    <div
+      class="content-section chapter-timeline"
+    >
+      <div class="timeline-inner">
+        <svg xmlns="http://www.w3.org/2000/svg" class="timeline-svg-desktop">
+          <defs>
+            <mask id="mask">
+              <rect width="100%" height="100%" x="-100%" y="0" fill="#fff"/>
+            </mask>
+          </defs>
+
+          <rect class="timeline-background" width="100%" height="5px" y="20" rx="2.5" />
+
+          <g class="mask-g" mask="url(#mask)">
+            <rect class="timeline-background-fill" width="100%" height="5px" y="20" rx="2.5" />
+          </g>	
+        </svg>
+        <div class="time-links">
+          <div></div>
+        </div>
+      </div>
+
+      <template id="time-link">
+        <div class="time-link">
+          <div class="timecode"></div>
+          <div class="title"></div>
+        </div>
+      </template>
+    </div>
+
+    <section class="content-section">
+      
+      <aside class="links">
+        <h2>Links</h2><a class="link" target="_blank" href="https://github.com/TorstenTimm/VoynichTextGenerator"><span>Voynich Text Generator</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a></aside>
+      
+
+      <h2>Morphologie</h2>
+
+      <p>Die Unzugänglichkeit des Voynich-Textes liegt weniger an den genutzten Zeichen, mehr an der Art und Weise, wie sie kombiniert wurden. Im Manuskript lässt sich unschwer erkennen, dass es eine Art von Wortmodell gibt, da sich Spatien ausmachen lassen. Es ist schon ziemlich früh aufgefallen, dass die Wörter sich auf seltsame Art ähnlich sind, sich aber eine ganze Reihe Eigenschaften beschreiben lassen, die sich bei natürlichsprachlichen Wörtern so nicht finden.</p>
+<h2>Mitwirkende</h2>
+<ul>
+<li>Maximilian Supplieth</li>
+<li>Lukas Mönch</li>
+</ul>
+<h2>Quellen und Verweise</h2>
+<ul>
+<li>Hermes, Jürgen (2012): Textprozessierung – Design und Applikation. Dissertation: Universität zu Köln. <a href="https://kups.ub.uni-koeln.de/4561/">Link</a></li>
+<li>Reddy, Sravana; Kevin Knight (2011): What We Know About The Voynich Manuscript. Conference paper. Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities. <a href="https://www.aclweb.org/anthology/W11-1511.pdf">Link</a></li>
+<li>Schwerdtfeger, Elias (2005-2019): Das Voynich-Blog. <a href="http://voynich.tamagothi.de/">Link</a> , zuletzt abgerufen am 01.01.2021.</li>
+<li>Schwerdtfeger, Elias (2009): Das Voynich-Blog. Die Monatsnamen. <a href="http://voynich.tamagothi.de/2009/09/01/die-monatsnamen/">Link</a></li>
+<li>Stolfi, Jorge (1997): A prefix-midfix-suffix decomposition of Voynichese words. <a href="https://www.ic.unicamp.br/~stolfi/voynich/97-11-12-pms/">Link</a></li>
+<li>Timm, Torsten (2016): Co-occurrence patterns in the Voynich Manuscript. <a href="https://arxiv.org/abs/1601.07435">Link</a></li>
+<li>Timm, Torsten (2014): How the Voynich Manuscript was created. <a href="https://arxiv.org/abs/1407.6639">Link</a></li>
+<li>Zandbergen, René (2019): The Voynich Manuscript. <a href="http://www.voynich.nu/a3_para.html">Link</a>, zuletzt abgerufen am 01.01.2021.</li>
+<li>Scans des Voynich-Manuskripts. <a href="https://brbl-dl.library.yale.edu/vufind/Record/3519597">Link</a></li>
+<li>Transkriptionen des Voynich-Manuskripts. <a href="http://voynich.freie-literatur.de/index.php?show=overview">Link</a></li>
+</ul>
+
+    
+      
+
+
+    </section>
+</main>
+
+    <script src="/script/video-timeline.js?v=1"></script>
+  </body>
+</html>

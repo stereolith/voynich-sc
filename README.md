@@ -18,6 +18,10 @@ Content is represented in markdown format:
 - topic pages in `src/pages/`
 - home page: `src/index.md`
 
+### Media files
+
+- videos: `src/media/videos` **video files are not tracked in this repository**
+
 ### Build static files
 
 Requirements: **node** and **npm**

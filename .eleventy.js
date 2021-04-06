@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     return md.renderInline(content);
   });
 
+  eleventyConfig.addPassthroughCopy({"src/favicon/": "/"});
   eleventyConfig.addPassthroughCopy("src/media/");
   eleventyConfig.addPassthroughCopy("src/fonts/");
   eleventyConfig.addPassthroughCopy("src/style/");

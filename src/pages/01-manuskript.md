@@ -1,10 +1,10 @@
 ---
 layout: layouts/topic.njk
-title: Standort und Eindruck
+title: Das Manuskript
 date: 2021-04-01
 tags: topic
 
-video: /media/videos/vsc_manuskript.mp4
+video: /media/videos/vsc_01_manuskript.mp4
 tileimage: /media/images/1006075.jpg
 chapters:
   - title: "Einleitung"
