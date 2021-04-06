@@ -7,10 +7,8 @@ tags: topic
 video: /media/videos/vsc_09_sprachphilosophie.mp4
 tileimage: /media/images/1006253.jpg
 chapters:
-  - title: "Warum Kunstsprachen?"
-    time: 0
   - title: "Klassifikation"
-    time: 103
+    time: 0
   - title: "Geschichte von Kunstsprachen"
     time: 341
   - title: "Kunstsprachen im 15./ 16. JH"
