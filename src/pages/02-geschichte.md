@@ -14,7 +14,7 @@ chapters:
   - title: "Zurück ins 15 Jahr­hundert"
     time: 1905
 links:
-  - text: Timeline
+  - text: Im Video verwendete Timeline 
     href: https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1RAJlin4bLx6PKQPt76M0RhE8B3Zwzyuk1zboP9Alic0&font=Default&lang=de&start_at_end=true&initial_zoom=2&height=650
 ---
 
