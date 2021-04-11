@@ -1,6 +1,6 @@
 ---
 layout: layouts/topic.njk
-title: Kryptologie
+title: Informatik Kryptologie
 date: 2021-04-01
 tags: topic
 
