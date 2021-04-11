@@ -31,3 +31,10 @@ Das Video thematisiert historische Pflanzendarstellungen und ihr Verhältnis zu 
 * Moritz Esser
 * Teresa Johnsen
 * Rebekka Borges
+
+## Quellen und Verweise
+
+* Collins, Minta (2000): Medieval herbals: the illustrative traditions , British Library Studies in Medieval Culture. 
+* O'Neill (1944): Botanical Observations on the Voynich Manuscript. [Link](https://www.jstor.org/stable/pdf/2856859.pdf)
+* Tucker & Talbot (2013): A preliminary analysis of the botanny, zoology and mineralogy of the Voynich Manuscript. [Link](http://cms.herbalgram.org/herbalgram/issue100/HG100-voynich-online.pdf)
+* René Zandbergen: [Übersicht zu Illustrationen](http://voynich.nu/illustr.html).
