@@ -33,3 +33,8 @@ Das Video beleuchtet das VMS aus sprachphilosophischer Sicht. Dazu werden zunäc
 
 * Cosima Granderath-Miegel
 * Jonas Schmidt
+
+## Quellen und Verweise
+
+* Kurzübersicht: Hermes (2012): Textprozessierung - Design und Applikation (109ff) - [bei KUPS](https://kups.ub.uni-koeln.de/4561/)
+* Strasser, Gerhard: Lingua Universalis: Krypologie und Theorie der Universalsprachen im 16. und 17. Jahrhundert (Wolfenbütteler Forschungen, im Präsenzbestand der USB)
