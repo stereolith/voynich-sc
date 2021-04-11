@@ -11,7 +11,7 @@ chapters:
     time: 60
   - title: "Verfahren der Krypto­logie"
     time: 1620
-  - title: "Beispiel für Maskierten Code, Abschluss"
+  - title: "Ein Beispiel für maskier­ten Code"
     time: 2952
 links:
   - text: Prezi-Slides Geschichte
@@ -25,3 +25,6 @@ links:
 ---
 
 Diese Episode thematisiert die Krypotologie, Wissenschaft von der Informationssicherheit, um Ansatzpunkte dafür zu finden, wie man den Text des Voynich-Manuskripts analysieren könnte, um seinem Geheimnis auf die Spur zu kommen.
+
+
+Autor: [Jürgen Hermes] (https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
