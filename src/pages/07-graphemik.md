@@ -29,3 +29,9 @@ Das Video thematisiert die Wissenschaft der Graphemik und die Zugännge, die sie
 * Annika Fischer
 * Elias Faqirzada
 * Moritz Meid
+
+## Quellen und Verweise
+
+* Kurzübersicht: Hermes (2012): Textprozessierung - Design und Applikation (93ff) - [bei KUPS](https://kups.ub.uni-koeln.de/4561/)
+* René Zandbergen: [Übersichtsseite zu Transkriptionen](http://www.voynich.nu/transcr.html) 
+* Megyesi, Blomqvist and Pettersson (2019): The DECODE Database Collection of Historical Ciphers and Keys. [Link](https://ep.liu.se/ecp/158/008/ecp19158008.pdf)
