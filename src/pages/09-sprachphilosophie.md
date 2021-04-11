@@ -1,6 +1,7 @@
 ---
 layout: layouts/topic.njk
-title: Sprachphilosophie
+topic: Philosophie
+title: Sprachentwürfe
 date: 2021-04-01
 tags: topic
 
