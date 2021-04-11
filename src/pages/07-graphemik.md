@@ -20,7 +20,9 @@ links:
 
 ---
 
-Spätestens, seit man mit Computern automatisierte Auswertungen von Zeichenketten vornehmen kann, gibt es die Bestrebung, die Handschrift des VMS in einzelne Zeichen zu zerlegen und diesen standardisierte Codes zuzuweisen. Der erste Ansatz wurde von Friedman und seiner First Study Group zum VMS in den 1940er Jahren entwickelt. Einen eigenen, abweichenden Vorschlag machte Prescott Currier in den 1970er Jahren. In den 1990er Jahren wurde mit dem Extensible Voynich Alphabet (EVA, Landini und Zandbergen) ein System geschaffen, in das alle vorherigen Ansätze integriert werden konnten. Mit v101 veröffentlichte Glen Claston in den 2010ern ein weiteres Transliterationsalphabet, das bestimmte Vorteile hat, aber (bisher) nicht integriert werden konnte.
+Spätestens, seit man mit Computern automatisierte Auswertungen von Zeichenketten vornehmen kann, gibt es die Bestrebung, die Handschrift des Voynich-Manuskripts (VMS) in einzelne Zeichen zu zerlegen und diesen standardisierte Codes zuzuweisen. Der erste Ansatz wurde vom Kryptoanalytiker [William Friedman](https://de.wikipedia.org/wiki/William_Friedman) und seiner First Study Group zum VMS in den 1940er Jahren entwickelt. Einen eigenen, abweichenden Vorschlag machte Prescott Currier in den 1970er Jahren. In den 1990er Jahren wurde mit dem Extensible Voynich Alphabet (**EVA**, Landini und Zandbergen) ein System geschaffen, in das alle vorherigen Ansätze integriert werden konnten. Mit **v101** veröffentlichte Glen Claston in den 2010ern ein weiteres Transliterationsalphabet, das bestimmte Vorteile hat, aber (bisher) nicht integriert werden konnte.
+
+Das Video thematisiert die Wissenschaft der Graphemik und die Zugännge, die sie zum VMS bietet. Es werden die verschiedenen Transkriptionsalphabete und statistische Analysen auf Zeichenebene vorgestellt.
 
 ## Mitwirkende
 
