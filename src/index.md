@@ -17,28 +17,21 @@ Universität zu Köln
 **Webseite:** Lukas Mönch
 
 **Weitere Beitragende** (alphabetisch):
-Rebekka	Borges
-Michaela	Dienhart
-Anna Charlotte	Epple
-Moritz Sebastian Hubert	Eßer
-Elias	Faqirzada
-Annika	Fischer
-Nils	Geißler
-Nina	Gollwig
-Cosima	Granderath-Miegel
-Monami	Homma
-Teresa	Johnsen
-Valeriia	Kozenasheva
-Anton Moritz	Meid
-Lukas	Mönch
-Jonas	Schmidt
-Kamil	Schock
-Maximilian	Supplieth
-Nghia	Truong
-
-
-[image](https://user-images.githubusercontent.com/943907/114318142-ed1d5480-9b0b-11eb-9375-0b323e1e8190.png)
-
-
-[image](https://user-images.githubusercontent.com/943907/114318107-c9f2a500-9b0b-11eb-8426-398a959d5fc3.png)
+* Rebekka Borges
+* Michaela Dienhart
+* Anna Charlotte Epple
+* Moritz Eßer 
+* Elias Faqirzada
+* Annika Fischer
+* Nina Gollwig
+* Cosima Granderath-Miegel
+* Monami Homma
+* Teresa Johnsen
+* Valeriia Kozenasheva
+* Anton Moritz Meid
+* Lukas Mönch
+* Jonas Schmidt
+* Kamil Schock
+* Maximilian Supplieth
+* Nghia Truong
 
