@@ -34,3 +34,8 @@ Das Video thematisiert die historische Wissenschaft Kodikologie und zeigt, wie s
 * Nghia Truong
 * Nina Gollwig
 * Valeriia Kozenasheva
+
+## Quellen und Verweise
+
+* [Bericht des McCrone-Instituts](https://beinecke.library.yale.edu/sites/default/files/files/voynich_analysis.pdf) zur materialwissenschaftlichen Analyse des VMS.
+* René Zandbergen: [Übersicht zu Folia, Quires, Anordnnunng, Foldouts des VMS](http://voynich.nu/descr.html#n06)
