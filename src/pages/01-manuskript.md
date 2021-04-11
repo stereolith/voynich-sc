@@ -9,9 +9,9 @@ tileimage: /media/images/1006075.jpg
 chapters:
   - title: "Ein­lei­tung"
     time: 0
-  - title: "Anflug"
+  - title: "Anflug auf die Beincke Bibliothek"
     time: 140
-  - title: "Optik, Akustik und Haptik"
+  - title: "Optik, Akustik und Haptik des VMS"
     time: 420
   - title: "Animation des Foldouts"
     time: 1630
@@ -24,5 +24,5 @@ links:
     href: https://www.youtube.com/watch?v=NGrNIB0sHYk
 ---
 
-Das nach seinem Endecker benannte Voynich-Manuskript ist eines der größten Rätsel unter den bekannten Schriftstücken. In diesem ersten Teil der Videoserie geht es darum, wo man es zur Zeit finden kann und wie es in seinem Inneren aussieht. 
-
+Das nach seinem Endecker benannte [Voynich-Manuskript](https://de.wikipedia.org/wiki/Voynich-Manuskript) ist eines der größten Rätsel unter den bekannten Schriftstücken. In diesem ersten Teil der Videoserie geht es darum, wo man es zur Zeit finden kann und wie es in seinem Inneren aussieht. Autor: [Jürgen Hermes] (https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
+ 
