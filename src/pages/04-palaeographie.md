@@ -34,4 +34,3 @@ Dieses Video thematisiert die historische Wissenschaft Paläographie und wie man
 
 * Prescott H. Currier (1976): Papers on the Voynich Manuscript. [veröffentlicht auf der Seite vonn René Zandbergen](http://www.voynich.nu/extra/curr_main.html)
 * Lisa Fagin Davis (2020): "How many glyphs and how many scribes?" in Mauscript Studies 5.1 pp 164-180 UoP Press [Link](https://muse.jhu.edu/article/754633/pdf)
-* Software [Archetype](https://archetype.ink/#download)
