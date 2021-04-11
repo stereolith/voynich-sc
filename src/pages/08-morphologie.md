@@ -24,6 +24,8 @@ links:
 
 Die Unzugänglichkeit des Voynich-Textes liegt weniger an den genutzten Zeichen, mehr an der Art und Weise, wie sie kombiniert wurden. Im Manuskript lässt sich unschwer erkennen, dass es eine Art von Wortmodell gibt, da sich Spatien ausmachen lassen. Es ist schon ziemlich früh aufgefallen, dass die Wörter sich auf seltsame Art ähnlich sind, sich aber eine ganze Reihe Eigenschaften beschreiben lassen, die sich bei natürlichsprachlichen Wörtern so nicht finden.
 
+Das Video thematisiert den Zugang, den die Morphologie als Teildisziplin der Linguistik, zum VMS anbietet. Dazu zählen statistische Analysen und weitere Wortmodelluntersuchungen, welche die weitgehende Einzigartigkeit der VMS-"Wörter" beleuchten. Auf dieser Grundlage werden verschiedene Thesen zur Entstehung des VMS-Textes diskutiert. 
+
 ## Mitwirkende
 
 * Maximilian Supplieth
