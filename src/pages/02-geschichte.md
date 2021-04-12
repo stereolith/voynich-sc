@@ -20,5 +20,5 @@ links:
 
 In dieser Episode geht es um die Geschichte des [Voynich-Manuskripts](https://de.wikipedia.org/wiki/Voynich-Manuskript), soweit sie bekannt ist. Dabei reisen wir von der Gegenwart zurück in die Zeit, sehen, wo [Wilfried Voynich](https://de.wikipedia.org/wiki/Wilfrid_Michael_Voynich) das Mauskript fand, was darauf hindeutet, dass es bereits im 17. Jahrhundert in Prag vorlag und in welcher Periode es entstanden ist. 
 
-Autor: [Jürgen Hermes] (https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
+Autor: [Jürgen Hermes](https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
 
