@@ -20,11 +20,11 @@ links:
 
 ---
 
-Neben dem Text, den niemand lesen kann, finden sich im Voynich-Manuskript (VMS) auf fast jeder Seite Zeichnungen, die zwar zunächst zugänglicher als der Text erscheinen, aber bei genauerer Analyse aber auch wieder Rätsel aufgeben. Zumindest lässt sich das VMS durch die unterschiedlichen Zeichnungen in verschiedene Teile gliedern. Der bei weitem umfangreichste Teil wird der Botanische genennt, weil auf diesem seitengroße Pflanzen zu finden sind, um die herum Textblöcke arrangiert sind.
+Neben dem Text, den niemand lesen kann, finden sich im Voynich-Manuskript (VMS) auf fast jeder Seite Zeichnungen, die zwar zunächst zugänglicher als der Text erscheinen, aber bei genauerer Analyse aber auch wieder Rätsel aufgeben. Zumindest lässt sich das VMS durch die unterschiedlichen Zeichnungen in verschiedene Teile gliedern. Der bei weitem umfangreichste Teil wird der Botanische genannt, weil auf diesem seitengroße Pflanzen zu finden sind, um die herum Textblöcke arrangiert sind.
 
 Zur Identifikation der Pflanzen erschienen mehrere, sich stark widersprechende Arbeiten. Die erste bekannte stammt aus dem Jahr 1944. Man meinte, Sonnenblumen und Spanischen Pfeffer, also zwei Neuweltpflanzen identifiziert zu haben. Diese Analyse hat bezüglich der Altersbestimmung des Manuskripts ein Problem, das später Anlass zu der Spekulation gab, dass das VMS auch seinen Ursprung in der neuen Welt hat. Diese Annahme wurde aber bisher kaum von andere VMS-Forschern mitgetragen.
 
-Das Video thematisiert historische Pflanzendarstellungen und ihr Verhältnis zu denen des VMS. Es geht auf verschiedene Theorien zur Herkunft des VMS ein, die auf Grundlage der Pflanzendarstellungen entworfen wurden. Zum Schluss wird ein Prototyp für eine kontrastive Darstellung verschiedener Pflanzennzuordnungen zu den Zeichnungen vorgestellt. 
+Das Video thematisiert historische Pflanzendarstellungen und ihr Verhältnis zu denen des VMS. Es geht auf verschiedene Theorien zur Herkunft des VMS ein, die auf Grundlage der Pflanzendarstellungen entworfen wurden. Zum Schluss wird ein Prototyp für eine kontrastive Darstellung verschiedener Pflanzenzuordnungen zu den Zeichnungen vorgestellt. 
 
 ## Mitwirkende
 
