@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPairedShortcode("markdown", (content) => {
-    return md.renderInline(content);
+    return md.render(content);
   });
 
   eleventyConfig.addPassthroughCopy({"src/favicon/": "/"});

@@ -30,4 +30,10 @@ layout: layouts/base.njk
     <section class="content-section image-sources">
         Die hier verwendeten Bilder stammen aus den <a href="https://collections.library.yale.edu/catalog/2002046" target="_blank">Scans der Beinecke Rare Book and Manuscript Library der Yale University</a>.
     </section>
+
+    <section class="content-section">
+        {% markdown %}
+            {% include '../../impressum.md' %}
+        {% endmarkdown %}
+    </section>
 </main>
