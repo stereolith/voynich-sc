@@ -1,6 +1,6 @@
 ---
 layout: layouts/topic.njk
-topic: Semiotik
+topic: Linguistik
 title: Morphologie
 date: 2021-04-01
 tags: topic
