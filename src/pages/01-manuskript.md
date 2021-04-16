@@ -24,5 +24,5 @@ links:
     href: https://www.youtube.com/watch?v=NGrNIB0sHYk
 ---
 
-Das nach seinem Endecker benannte [Voynich-Manuskript](https://de.wikipedia.org/wiki/Voynich-Manuskript) ist eines der größten Rätsel unter den bekannten Schriftstücken. In diesem ersten Teil der Videoserie geht es darum, wo man es zur Zeit finden kann und wie es in seinem Inneren aussieht. Autor: [Jürgen Hermes](https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
+Das nach seinem Entdecker benannte [Voynich-Manuskript](https://de.wikipedia.org/wiki/Voynich-Manuskript) ist eines der größten Rätsel unter den bekannten Schriftstücken. In diesem ersten Teil der Videoserie geht es darum, wo man es zur Zeit finden kann und wie es in seinem Inneren aussieht. Autor: [Jürgen Hermes](https://dh.phil-fak.uni-koeln.de/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-juergen-hermes) [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.de)
  
