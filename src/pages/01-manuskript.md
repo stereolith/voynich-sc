@@ -1,5 +1,6 @@
 ---
 layout: layouts/topic.njk
+topic: Voynich
 title: Das Manuskript
 date: 2021-04-01
 tags: topic
