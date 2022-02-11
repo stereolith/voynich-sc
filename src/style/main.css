@@ -77,12 +77,12 @@ p {
 
 .tile-links {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin-bottom: 25px;
     gap: 12px;
 }
 .tile-link {
-    height: 270px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 6px;
