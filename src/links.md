@@ -1,4 +1,6 @@
+
 ## Links
+
 **Links zu Informationsportalen**
 * [Webseite zum Voynich Manuskript](http://www.voynich.nu/) von René Zandbergen
 * [Forum zum Voynich Manuskript](http://www.voynich.ninja/)  

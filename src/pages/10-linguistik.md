@@ -11,13 +11,13 @@ chapters:
   - title: "Look and Feel des Voy­nich Ma­nus­kripts"
     time: 0
   - title: "Geschichte des Voy­nich Manus­kripts"
-    time: 1055
+    time: 370
   - title: "Was ist das für ein Text?"
-    time: 1905
+    time: 1065
   - title: "Sta­tis­ti­sche Be­son­der­hei­ten"
-    time: 1225
+    time: 1667
   - title: "Lin­gu­ist­ische An­griffs­punkte"
-    time: 2000
+    time: 2881
 links:
   - text: Im Video verwendetes Mural 
     href: https://app.mural.co/t/institutfurdigitalhumanities4860/m/institutfurdigitalhumanities4860/1640605913072/07ef73c338f8d0d19aa3b6d9dff4fa450d6bcfb0?sender=ua7dd7704f7b57293ab123708
